@@ -33,8 +33,8 @@ A modern, responsive, and executive-grade Weather Intelligence web application b
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/weather-forecast-app.git
-cd weather-forecast-app
+git clone https://github.com/sohampatel17127/Aero-Cast---Weather-Forcast.git
+cd Aero-Cast---Weather-Forcast
 ```
 
 ### 2. Install dependencies
