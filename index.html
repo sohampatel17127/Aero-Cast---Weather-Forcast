@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='42' cy='42' r='23' fill='%23F57C00'/><path d='M84 62C84 56.5 79.5 52 74 52C73 52 72 52.2 71.2 52.6C69.8 44.5 62.8 38.5 54.5 38.5C48 38.5 42.3 42.2 39.5 47.8C38.2 47.3 36.8 47 35.5 47C28.5 47 23 52.5 23 59.5C23 60.5 23.2 61.5 23.5 62.5C18.8 64.2 15.5 68.8 15.5 74C15.5 80.5 20.8 85.5 27 85.5C28.2 85.5 29.5 85.3 30.5 84.8C33 88 37 90 41.5 90C44.5 90 47.2 89 49.5 87.2C52 89 55.2 90 58.5 90C64.5 90 69.5 86.2 71.5 81C72.5 81.3 73.5 81.5 74.5 81.5C80 81.5 84.5 77 84.5 71.5C84.5 69.2 83.7 67.2 82.2 65.5C83.3 64.5 84 63.3 84 62Z' fill='%233982DC'/><path d='M42 45.5C44.5 41.5 49.2 39.5 54.5 39.5C61.8 39.5 68 44.5 69.5 51.5' stroke='%23FFFFFF' stroke-width='3' stroke-linecap='round'/></svg>" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AeroCast — Atmospheric Telemetry & Precision Forecast</title>
+    <meta name="description" content="High-precision meteorological telemetry and weather intelligence crafted with 3D glassmorphic depth and tactile design." />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Outfit:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      // When opened with VS Code Live Server (e.g. port 5500/5502) instead of Vite dev server (5173),
+      // seamlessly load the compiled production app instantly with zero messages or delays
+      if (window.location.port !== '5173' && !window.location.pathname.includes('/dist/')) {
+        window.location.replace('./dist/index.html');
+      }
+    </script>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
