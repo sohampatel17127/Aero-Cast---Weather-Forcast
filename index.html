@@ -12,13 +12,6 @@
   </head>
   <body>
     <div id="root"></div>
-    <script>
-      // When opened with VS Code Live Server (e.g. port 5500/5502) instead of Vite dev server (5173),
-      // seamlessly load the compiled production app instantly with zero messages or delays
-      if (window.location.port !== '5173' && !window.location.pathname.includes('/dist/')) {
-        window.location.replace('./dist/index.html');
-      }
-    </script>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
